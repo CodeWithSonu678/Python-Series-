@@ -1,3 +1,13 @@
+🔐 Lock (Thread Synchronization)
+Lock ek synchronization mechanism hai jo shared data ko protect karta hai.
+Lock ka use karke ek time pe sirf ek thread critical section ko access kar sakta hai, jisse race condition avoid hoti hai.
+👉 Python me threading.Lock() ka use hota hai.
+Syntax :-
+lock = threading.Lock()
+with lock:
+    # critical section
+
+##Start Program
 import threading  #library for thread 
 import time            #library for tiem
 
