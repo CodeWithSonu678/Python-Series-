@@ -1,9 +1,10 @@
-
-'''🐼Pandas Series :--
+🐼Pandas Series :--
 
 Series ek 1-Dimensional (1D) data structure hoti hai
+
 👉 List / array jaisi, lekin index ke saath
-Series = Data + Index'''
+
+Series = Data + Index
 
 import pandas as pd
 
