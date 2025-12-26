@@ -96,3 +96,10 @@ df.to_csv("data.csv", sep=";")      # custom separator
 df.to_csv("data.csv", header=True) # column names include
 df.to_csv("data.csv", encoding="utf-8")
 '''
+
+# Series To DataFrame
+
+series= pd.Series([1,2,3,4])
+
+DF= pd.DataFrame(series,columns=["Number"])
+print(DF)
