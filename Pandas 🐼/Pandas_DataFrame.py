@@ -21,13 +21,13 @@ print(a)
 
 #List se
 
-list = [
+student_list = [
     ["Sonu Yadav",99],
     ["Rahul Yadav", 90],
     ["Rikesh Singh",89]
 ]
 
-l = pd.DataFrame(list,columns=["Name","Marks"])
+l = pd.DataFrame(student_list,columns=["Name","Marks"])
 
 print(l)
 print(l[:1]) #slicing
@@ -53,7 +53,8 @@ print(d.info())
 print(d.describe())
 print(d.columns)
 print(d["name"]) #column access
-print(d.iloc[2])    #index se access
+if len(d) > 2:
+    print(d.iloc[2])    #index se access
 
 #🔹 Data filtering (important 🔥)
 
