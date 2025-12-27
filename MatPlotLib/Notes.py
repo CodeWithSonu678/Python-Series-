@@ -23,7 +23,7 @@ plt.bar().    Bar chart(📌 Use: Comparison ke liye)
 
 plt.scatter() Scatter plot(📌 Use: Relationship / pattern dekhne ke liye )
 
-plt.pie() Pie chart(📌 Use: Percentage distribution)
+plt.pie()     Pie chart(📌 Use: Percentage distribution)
 
 plt.xlabel()  X label
 plt.ylabel()  Y label
