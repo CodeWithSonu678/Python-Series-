@@ -29,6 +29,7 @@ print(s[0:4])   # Pyth
 print(s[2:])    # thon
 print(s[:3])    # Pyt
 print(s[::2])   # Pto
+print(s[::-1])  #Reverse string (nohtyp)
 
 🔹 String Immutable hoti hai
 
